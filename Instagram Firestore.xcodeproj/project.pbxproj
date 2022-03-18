@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC29BA6C27E4DA130042EBD7 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */; };
 		DCCE3CEC27E4977E001DB1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CEB27E4977E001DB1C2 /* AppDelegate.swift */; };
 		DCCE3CEE27E4977E001DB1C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CED27E4977E001DB1C2 /* SceneDelegate.swift */; };
 		DCCE3CF027E4977E001DB1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CEF27E4977E001DB1C2 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		DCCE3CE827E4977E001DB1C2 /* Instagram Firestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Firestore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCE3CEB27E4977E001DB1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCE3CED27E4977E001DB1C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC29BA6527E4D98B0042EBD7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC29BA6627E4D9900042EBD7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DC29BA6727E4D9980042EBD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC29BA6827E4D9B60042EBD7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC29BA6927E4D9BC0042EBD7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DC29BA6A27E4D9C20042EBD7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		DCCE3CDF27E4977E001DB1C2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +143,12 @@
 		DCCE3CEA27E4977E001DB1C2 /* Instagram Firestore */ = {
 			isa = PBXGroup;
 			children = (
+				DC29BA6A27E4D9C20042EBD7 /* Utils */,
+				DC29BA6927E4D9BC0042EBD7 /* API */,
+				DC29BA6827E4D9B60042EBD7 /* Controllers */,
+				DC29BA6727E4D9980042EBD7 /* Views */,
+				DC29BA6627E4D9900042EBD7 /* ViewModels */,
+				DC29BA6527E4D98B0042EBD7 /* Models */,
 				DCCE3CEB27E4977E001DB1C2 /* AppDelegate.swift */,
 				DCCE3CED27E4977E001DB1C2 /* SceneDelegate.swift */,
 				DCCE3CEF27E4977E001DB1C2 /* ViewController.swift */,
@@ -106,6 +156,7 @@
 				DCCE3CF427E4977F001DB1C2 /* Assets.xcassets */,
 				DCCE3CF627E4977F001DB1C2 /* LaunchScreen.storyboard */,
 				DCCE3CF927E4977F001DB1C2 /* Info.plist */,
+				DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */,
 			);
 			path = "Instagram Firestore";
 			sourceTree = "<group>";
@@ -260,6 +311,7 @@
 			files = (
 				DCCE3CF027E4977E001DB1C2 /* ViewController.swift in Sources */,
 				DCCE3CEC27E4977E001DB1C2 /* AppDelegate.swift in Sources */,
+				DC29BA6C27E4DA130042EBD7 /* MainTabController.swift in Sources */,
 				DCCE3CEE27E4977E001DB1C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
