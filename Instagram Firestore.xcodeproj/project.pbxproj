@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		DC29BA6C27E4DA130042EBD7 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */; };
+		DC29BA6E27E4DDCE0042EBD7 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA6D27E4DDCE0042EBD7 /* FeedController.swift */; };
+		DC29BA7027E4DDDE0042EBD7 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA6F27E4DDDE0042EBD7 /* SearchController.swift */; };
+		DC29BA7227E4DEDF0042EBD7 /* ImageSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA7127E4DEDF0042EBD7 /* ImageSelectorController.swift */; };
+		DC29BA7427E4DEF20042EBD7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA7327E4DEF20042EBD7 /* NotificationController.swift */; };
+		DC29BA7627E4DF010042EBD7 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC29BA7527E4DF010042EBD7 /* ProfileController.swift */; };
 		DCCE3CEC27E4977E001DB1C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CEB27E4977E001DB1C2 /* AppDelegate.swift */; };
 		DCCE3CEE27E4977E001DB1C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CED27E4977E001DB1C2 /* SceneDelegate.swift */; };
 		DCCE3CF027E4977E001DB1C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCE3CEF27E4977E001DB1C2 /* ViewController.swift */; };
@@ -38,6 +43,11 @@
 
 /* Begin PBXFileReference section */
 		DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		DC29BA6D27E4DDCE0042EBD7 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		DC29BA6F27E4DDDE0042EBD7 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		DC29BA7127E4DEDF0042EBD7 /* ImageSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorController.swift; sourceTree = "<group>"; };
+		DC29BA7327E4DEF20042EBD7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DC29BA7527E4DF010042EBD7 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		DCCE3CE827E4977E001DB1C2 /* Instagram Firestore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Firestore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCE3CEB27E4977E001DB1C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCCE3CED27E4977E001DB1C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +112,12 @@
 		DC29BA6827E4D9B60042EBD7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */,
+				DC29BA6D27E4DDCE0042EBD7 /* FeedController.swift */,
+				DC29BA6F27E4DDDE0042EBD7 /* SearchController.swift */,
+				DC29BA7127E4DEDF0042EBD7 /* ImageSelectorController.swift */,
+				DC29BA7327E4DEF20042EBD7 /* NotificationController.swift */,
+				DC29BA7527E4DF010042EBD7 /* ProfileController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,7 +172,6 @@
 				DCCE3CF427E4977F001DB1C2 /* Assets.xcassets */,
 				DCCE3CF627E4977F001DB1C2 /* LaunchScreen.storyboard */,
 				DCCE3CF927E4977F001DB1C2 /* Info.plist */,
-				DC29BA6B27E4DA130042EBD7 /* MainTabController.swift */,
 			);
 			path = "Instagram Firestore";
 			sourceTree = "<group>";
@@ -310,7 +325,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCCE3CF027E4977E001DB1C2 /* ViewController.swift in Sources */,
+				DC29BA7227E4DEDF0042EBD7 /* ImageSelectorController.swift in Sources */,
+				DC29BA7427E4DEF20042EBD7 /* NotificationController.swift in Sources */,
+				DC29BA7027E4DDDE0042EBD7 /* SearchController.swift in Sources */,
 				DCCE3CEC27E4977E001DB1C2 /* AppDelegate.swift in Sources */,
+				DC29BA7627E4DF010042EBD7 /* ProfileController.swift in Sources */,
+				DC29BA6E27E4DDCE0042EBD7 /* FeedController.swift in Sources */,
 				DC29BA6C27E4DA130042EBD7 /* MainTabController.swift in Sources */,
 				DCCE3CEE27E4977E001DB1C2 /* SceneDelegate.swift in Sources */,
 			);
